@@ -1,4 +1,4 @@
-# eureka-server
+### eureka-server
 
 The project is built using Github Actions.\
 A docker image is also created for this project and is pushed in docker hub microservicesolutions/eureka-server:latest
@@ -9,7 +9,7 @@ http://localhost:8761/
 
 
 The docker image can be pulled using:\
-docker pull microservicesolutions/eureka-server
+`docker pull microservicesolutions/eureka-server`
 
 The docker image can be run using:\
-docker run -dt -p 8761:8761 microservicesolutions/eureka-server
+`docker run -dt -p 8761:8761 microservicesolutions/eureka-server`
