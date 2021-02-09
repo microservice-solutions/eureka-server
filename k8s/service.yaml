@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: eureka-server
-  type: ClusterIP
+  type: NodePort
   ports:
   - port: 8761
+    nodePort: 30061
